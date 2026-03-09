@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills & Artifacts | Michael Walker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">MW<span>.sec</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Welcome</a></li>
+    <li><a href="skills.html" class="active">Skills</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="essay.html">Reflective Essay</a></li>
+    <li><a href="mailto:mwalk041@odu.edu">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page">
+  <section class="section">
+    <div class="section-inner">
+      <div class="section-label fade-up">Skills and Supporting Artifacts</div>
+      <h1 class="section-title fade-up-2">Three Core Skills.<br>Nine Artifacts.</h1>
+      <p class="section-desc fade-up-3">
+        Each skill below is grounded in real coursework, internship experience, and hands-on lab work.
+        Artifacts include embedded documents, project write-ups, certifications, and lab evidence.
+      </p>
+
+      <!-- SKILL 1 -->
+      <div class="skill-header">
+        <div class="skill-num">01</div>
+        <div class="skill-title-block">
+          <h2>Web Application Security and Vulnerability Remediation</h2>
+          <div class="skill-tag">OWASP Top 10 · SQL Injection · XSS · CSRF · RBAC</div>
+        </div>
+      </div>
+
+      <p class="skill-desc">
+        Web application security is one of the most in-demand skills in the cybersecurity job market
+        and an area where I have direct, real-world experience. During my internship at Earth Viability Center,
+        I identified and remediated live vulnerabilities including SQL injection, cross-site scripting (XSS),
+        and cross-site request forgery (CSRF), all classified in the OWASP Top 10. I also designed and implemented
+        a Role-Based Access Control (RBAC) system to reduce unauthorized privilege exposure across the application.
+        After my internship, I extended this skill through a dedicated SQL Injection Testing Lab using DVWA and
+        Mutillidae with SQLMap, which deepened my understanding of injection attacks from an offensive perspective.
+      </p>
+
+      <div class="artifacts-grid">
+        <div class="artifact-card">
+          <div class="artifact-type">Real-World / Internship</div>
+          <h4>Earth Viability Center — Vulnerability Remediation Report</h4>
+          <p>Documentation of SQL injection, XSS, and CSRF vulnerabilities identified and remediated during my internship, including the RBAC implementation and tools used.</p>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project / GitHub</div>
+          <h4>SQL Injection Testing Lab (DVWA / Mutillidae / SQLMap)</h4>
+          <p>Hands-on lab walkthrough using intentionally vulnerable environments to practice and document SQL injection techniques and defenses, hosted on GitHub at github.com/Mwalk041-droid.</p>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project / Steganography</div>
+          <h4>Assignment 6 — Hide Your Secret (Steganography Lab)</h4>
+          <p>Lab using steghide to embed hidden data inside image files on a Windows 7 VM, demonstrating data concealment techniques and the security implications of steganography in threat analysis.</p>
+          <a href="Assignment_6_-_Hide_your_secret_.pdf" target="_blank" class="artifact-link" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.75rem;font-size:0.7rem;color:var(--accent);text-decoration:none;">View Lab PDF</a>
+        </div>
+      </div>
+
+      <hr class="skill-sep">
+
+      <!-- SKILL 2 -->
+      <div class="skill-header">
+        <div class="skill-num">02</div>
+        <div class="skill-title-block">
+          <h2>Cloud Computing (AWS)</h2>
+          <div class="skill-tag">IAM · EC2 · S3 · VPC · CloudFormation · AWS CCP</div>
+        </div>
+      </div>
+
+      <p class="skill-desc">
+        Cloud infrastructure is the default operating environment for most organizations, and AWS
+        is the dominant platform. I earned the AWS Certified Cloud Practitioner certification in
+        March 2025, validating my working knowledge of core services including EC2, S3, IAM, VPC,
+        and CloudFormation. My most directly applicable skill within cloud computing is Identity and
+        Access Management, which involves building least-privilege policies, managing roles and groups,
+        and securing cloud environments against misconfiguration. My Risk Management minor gave me a
+        framework for treating unnecessary access permissions as a quantifiable risk rather than just a
+        technical setting.
+      </p>
+
+      <div class="artifacts-grid">
+        <div class="artifact-card">
+          <div class="artifact-type">Certification</div>
+          <h4>AWS Certified Cloud Practitioner</h4>
+          <p>Official AWS certification validating knowledge of EC2, S3, IAM, VPC, CloudFormation, the shared responsibility model, and cloud security fundamentals. Issued March 2025.</p>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project</div>
+          <h4>AWS IAM Configuration Lab</h4>
+          <p>Hands-on lab demonstrating user creation, role assignment, least-privilege policy configuration, and group-based access control in AWS IAM.</p>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Coursework</div>
+          <h4>Cloud Architecture and Security Project</h4>
+          <p>Course project documenting a secure AWS architecture using EC2, S3, and VPC with security groups, network ACLs, and encrypted storage, applying cloud security best practices throughout.</p>
+        </div>
+      </div>
+
+      <hr class="skill-sep">
+
+      <!-- SKILL 3 -->
+      <div class="skill-header">
+        <div class="skill-num">03</div>
+        <div class="skill-title-block">
+          <h2>Security Operations and Threat Detection</h2>
+          <div class="skill-tag">Splunk · Wireshark · Nmap · SIEM · Incident Response</div>
+        </div>
+      </div>
+
+      <p class="skill-desc">
+        Security operations is the day-to-day work of most cybersecurity teams, including monitoring systems,
+        detecting anomalies, investigating alerts, and responding to incidents. I developed this skill
+        through coursework and hands-on lab work using Splunk for SIEM log analysis and alerting,
+        Wireshark for packet capture and network traffic analysis, and Nmap for host discovery and
+        port scanning. Each tool covers a different phase of the security operations workflow: Splunk for
+        detection, Wireshark for analysis, and Nmap for understanding network exposure from an attacker's
+        perspective.
+      </p>
+
+      <div class="artifacts-grid">
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project / Passive Recon</div>
+          <h4>Lab 2 — Passive Reconnaissance (Shodan / WHOIS)</h4>
+          <p>Passive reconnaissance lab using Shodan to identify exposed devices and CVEs, and WHOIS lookups to gather domain registration data, demonstrating open-source intelligence gathering techniques.</p>
+          <a href="Lab_2___Passive_Reconnaissance.pdf" target="_blank" class="artifact-link" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.75rem;font-size:0.7rem;color:var(--accent);text-decoration:none;">View Lab PDF</a>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project / Active Recon</div>
+          <h4>Lab 3 — Active Reconnaissance and Vulnerability Scanning (Nmap / dnsenum)</h4>
+          <p>Active reconnaissance lab using Nmap for port scanning, service enumeration, and OS fingerprinting alongside dnsenum and dig for DNS analysis, conducted in a Kali Linux environment.</p>
+          <a href="Lab_3___Active_Reconnaissance_and_Vulnerability_Scanning.pdf" target="_blank" class="artifact-link" style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.75rem;font-size:0.7rem;color:var(--accent);text-decoration:none;">View Lab PDF</a>
+        </div>
+
+        <div class="artifact-card">
+          <div class="artifact-type">Lab Project / SIEM</div>
+          <h4>Splunk Log Analysis Lab</h4>
+          <p>Lab report documenting SPL queries, alert creation, dashboard setup, and event correlation using Splunk, including investigation of simulated security events and written findings.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Michael Walker · mwalk041@odu.edu · ODU Cybersecurity '26 · <a href="https://github.com/Mwalk041-droid" target="_blank">github.com/Mwalk041-droid</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
